@@ -1,0 +1,286 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+    font-size: 18px;
+    }
+}
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 14px;
+        }
+}
+
+
+body{ 
+    background-color: darkkhaki;
+}
+
+header H1{
+        padding: 50px;
+        margin:50px;
+        font-size: 50px;
+        color:whitesmoke;
+        text-align: center;
+        font-style: normal; 
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 50px;
+}
+
+H1{
+    margin:50px;
+    font-size:70px;
+    color:rgb(54, 56, 47);
+    font-style: normal;
+    text-align: center;
+}
+.imagen_cover
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:50px;
+    font-size:30px;
+    color:white;
+    font-style: italic;
+}
+.mision::before{
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+.mision_vision{
+    color: black;
+    margin: 50px;
+}
+
+.contacto {
+    background-color: darkkhaki;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+}
+
+.contacto h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.contacto p {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contacto ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contacto li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.contacto a {
+color: black;
+text-decoration: none;
+}
+
+.contacto a:hover {
+text-decoration: underline;
+}
+.texto_oferta H2{
+        padding: 10px;
+        margin:50px;
+        font-size: 50px;
+        text-decoration: underline;
+        color:whitesmoke;
+        text-align: left;
+        font-style: italic;
+
+}
+.texto_oferta p{
+    padding: 20px;
+    margin:50px;
+    font-size: 30px;
+    color:whitesmoke;
+    text-align: left;
+    font-style: italic;
+}
+.imagen_puppie{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagen_puppie img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    
+    
+}
+.foto_oferta {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr); 
+    grid-gap: 20px;
+    padding: 20px;
+}
+.foto_oferta img{
+    border-radius: 20%;
+    border: 3px solid black;
+}
+.contacto_mapa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contacto_mapa img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+    border-radius: 20%;
+}
+.foto_perro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foto_perro img {
+    margin-top:  40px; ;
+    padding: 40px;
+    border-radius: 20%;
+}
+.foto_perro h2{
+        padding: 50px;
+        margin:50px;
+        font-size: 50px;
+        color:whitesmoke;
+        text-align: center;
+        font-style: italic; 
+}   
+.historia_texto{
+    margin: 50px;
+    
+}   
+
+.col-md-6{
+
+}
+.col-md-6 h3{
+    font-size: 20px;
+    
+}
+
+.productos {
+display: flex;
+border-radius: 20%;
+flex-wrap: wrap;
+justify-content:center;
+margin-top: 20px;
+margin: 20px;
+}
+
+
+.producto {
+background-color: #92ad60;
+border: 1px solid #000000;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+padding: 20px;
+text-align: center;
+width: calc(33.33% - 20px);
+}
+
+.producto:hover {
+  box-shadow: 0 4px 8px gray;
+  transform: translateY(-2px);
+}
+
+.producto img {
+  max-width: 100%;
+}
+
+.producto h2 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.producto .precio {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.producto .descuento {
+  background-color: red;
+  border-radius: 20%;
+  color:whitesmoke;
+  font-size: 0.8rem;
+  padding: 5px;
+  margin-top: 10px;
+  padding: 20px;
+}
+.productos {
+    display: flex;
+    border-radius: 20%;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-top: 20px;
+    margin: 20px;
+    }
+    
+    
+    .catalogo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+        margin-top: 20px;
+        margin: 20px;
+    }
+    
+    .catalogo:hover {
+      box-shadow: 0 4px 8px gray;
+      transform: translateY(-2px);
+    }
+    
+    .catalogo img {
+      
+      max-width: 100%;
+      
+    }
+    
+    .catalogo p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+    
+
+
+footer{
+    margin-top: 100px;
+    padding: 50px;
+    background-color: #333
+}
